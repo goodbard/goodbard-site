@@ -1,2 +1,5 @@
-# goodbard-site
-The main public website code of Good Bard
+# Good Bard
+
+Minimal landing page for goodbard.com
+
+A storytelling atlas for products.
