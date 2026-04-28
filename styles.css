@@ -93,8 +93,8 @@ body::after {
   box-shadow:
     0 0 5rem rgba(247, 247, 244, 0.34),
     inset 0 0 4rem rgba(247, 247, 244, 0.20);
-  -webkit-backdrop-filter: blur(34px) saturate(112%);
-  backdrop-filter: blur(34px) saturate(112%);
+  /* -webkit-backdrop-filter: blur(34px) saturate(112%); */
+  backdrop-filter: blur(3px) saturate(112%);
 }
 
 .statement p {
