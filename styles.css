@@ -108,7 +108,6 @@ body::after {
 
 .statement p + p {
   margin-top: 1rem;
-  color: var(--muted);
 }
 
 .contact {
