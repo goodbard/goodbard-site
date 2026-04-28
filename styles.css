@@ -85,7 +85,8 @@ body::after {
 }
 
 .statement {
-  max-width: 720px;
+  width: max-content;
+  max-width: 100%;
   margin: clamp(4rem, 10vw, 8rem) auto 0;
   padding: clamp(1.5rem, 3vw, 2.5rem);
   background: var(--panel);
@@ -102,6 +103,7 @@ body::after {
   font-size: clamp(1.15rem, 2vw, 1.6rem);
   line-height: 1.45;
   letter-spacing: -0.025em;
+  white-space: nowrap;
 }
 
 .statement p + p {
@@ -144,6 +146,11 @@ body::after {
   }
 
   .statement {
+    width: 100%;
     background: rgba(247, 247, 244, 0.96);
+  }
+
+  .statement p {
+    white-space: normal;
   }
 }
