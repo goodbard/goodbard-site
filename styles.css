@@ -3,7 +3,7 @@
   --foreground: #050505;
   --muted: #5f5f5a;
   --line: rgba(0, 0, 0, 0.20);
-  --panel: rgba(247, 247, 244, 0.44);
+  --panel: rgba(247, 247, 244, 0.20);
 
   --font-display: "avenir-lt-pro", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --font-body: "graphie", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
@@ -89,13 +89,12 @@ body::after {
   margin: clamp(4rem, 10vw, 8rem) auto 0;
   padding: clamp(1.5rem, 3vw, 2.5rem);
   background: var(--panel);
-  border: 1px solid rgba(255, 255, 255, 0.48);
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow:
-    0 1.5rem 4rem rgba(5, 5, 5, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.58);
-  -webkit-backdrop-filter: blur(22px) saturate(118%);
-  backdrop-filter: blur(22px) saturate(118%);
+    0 0 5rem rgba(247, 247, 244, 0.34),
+    inset 0 0 4rem rgba(247, 247, 244, 0.20);
+  -webkit-backdrop-filter: blur(34px) saturate(112%);
+  backdrop-filter: blur(34px) saturate(112%);
 }
 
 .statement p {
@@ -146,6 +145,6 @@ body::after {
   }
 
   .statement {
-    background: rgba(247, 247, 244, 0.52);
+    background: rgba(247, 247, 244, 0.26);
   }
 }
