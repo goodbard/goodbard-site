@@ -133,6 +133,13 @@ body::after {
   border-bottom-color: currentColor;
 }
 
+.meta {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  opacity: 0.5;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 640px) {
   body::before {
     background-size: auto 115%;
